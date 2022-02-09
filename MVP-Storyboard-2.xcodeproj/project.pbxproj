@@ -19,6 +19,7 @@
 		A295FD9B27B43034006D02A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD9A27B43034006D02A9 /* MainViewController.swift */; };
 		A295FD9D27B431F3006D02A9 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD9C27B431F3006D02A9 /* MainPresenter.swift */; };
 		A295FDA127B4358F006D02A9 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FDA027B4358F006D02A9 /* ModuleBuilder.swift */; };
+		A295FDA427B43D8C006D02A9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FDA327B43D8C006D02A9 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A295FD9A27B43034006D02A9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A295FD9C27B431F3006D02A9 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		A295FDA027B4358F006D02A9 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		A295FDA327B43D8C006D02A9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A295FD6227B42F26006D02A9 /* AppDelegate.swift */,
 				A295FD6427B42F26006D02A9 /* SceneDelegate.swift */,
 				A295FD9227B42F43006D02A9 /* MainModule */,
+				A295FDA227B43D64006D02A9 /* ServiceLayer */,
 				A295FD6B27B42F27006D02A9 /* Assets.xcassets */,
 				A295FD6D27B42F27006D02A9 /* LaunchScreen.storyboard */,
 				A295FD7027B42F27006D02A9 /* Info.plist */,
@@ -166,6 +169,14 @@
 				A295FD9827B42FFA006D02A9 /* MainView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A295FDA227B43D64006D02A9 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A295FDA327B43D8C006D02A9 /* NetworkService.swift */,
+			);
+			path = ServiceLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +316,7 @@
 				A295FD9727B42F7A006D02A9 /* Comment.swift in Sources */,
 				A295FD9B27B43034006D02A9 /* MainViewController.swift in Sources */,
 				A295FDA127B4358F006D02A9 /* ModuleBuilder.swift in Sources */,
+				A295FDA427B43D8C006D02A9 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
