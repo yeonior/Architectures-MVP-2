@@ -15,9 +15,9 @@ class ModuleBuilder: Builder {
     
     static func createMainModule() -> UIViewController {
         
-        let model = Comment(postId: 1, id: 1, name: "1", email: "2", body: "3")
+        let networkService = NetworkService()
         let view = MainViewController()
-        let presenter = MainPresenter(model: model, view: view)
+        let presenter = MainPresenter(networkService: networkService, view: view)
         
         view.presenter = presenter
         

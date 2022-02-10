@@ -23,21 +23,26 @@ class MainViewController: UIViewController {
 }
 
 extension MainViewController: MainViewProtocol {
+    func success() {
+        tableView.reloadData()
+    }
     
-    func set(_ text: String) {
-        print(#function)
+    func failure(error: Error) {
+        print(error.localizedDescription)
     }
 }
 
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        2
+        presenter.comments?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = "Test"
+        let comment = presenter.comments?[indexPath.row]
+        cell.textLabel?.text = comment?.body
+        
         return cell
     }
 }
