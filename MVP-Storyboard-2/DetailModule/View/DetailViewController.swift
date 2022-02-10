@@ -17,6 +17,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         presenter.setComment()
+        commentLabel.numberOfLines = 0
     }
 }
 
