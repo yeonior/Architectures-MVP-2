@@ -11,9 +11,9 @@
 		A295FD6527B42F26006D02A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD6427B42F26006D02A9 /* SceneDelegate.swift */; };
 		A295FD6C27B42F27006D02A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A295FD6B27B42F27006D02A9 /* Assets.xcassets */; };
 		A295FD6F27B42F27006D02A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A295FD6D27B42F27006D02A9 /* LaunchScreen.storyboard */; };
-		A295FD7A27B42F27006D02A9 /* MVP_Storyboard_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD7927B42F27006D02A9 /* MVP_Storyboard_2Tests.swift */; };
-		A295FD8427B42F27006D02A9 /* MVP_Storyboard_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD8327B42F27006D02A9 /* MVP_Storyboard_2UITests.swift */; };
-		A295FD8627B42F27006D02A9 /* MVP_Storyboard_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD8527B42F27006D02A9 /* MVP_Storyboard_2UITestsLaunchTests.swift */; };
+		A295FD7A27B42F27006D02A9 /* Architecture_MVP_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD7927B42F27006D02A9 /* Architecture_MVP_2Tests.swift */; };
+		A295FD8427B42F27006D02A9 /* Architecture_MVP_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD8327B42F27006D02A9 /* Architecture_MVP_2UITests.swift */; };
+		A295FD8627B42F27006D02A9 /* Architecture_MVP_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD8527B42F27006D02A9 /* Architecture_MVP_2UITestsLaunchTests.swift */; };
 		A295FD9727B42F7A006D02A9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD9627B42F7A006D02A9 /* Comment.swift */; };
 		A295FD9927B42FFA006D02A9 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A295FD9827B42FFA006D02A9 /* MainView.xib */; };
 		A295FD9B27B43034006D02A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295FD9A27B43034006D02A9 /* MainViewController.swift */; };
@@ -43,17 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A295FD5F27B42F26006D02A9 /* MVP-Storyboard-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-Storyboard-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A295FD5F27B42F26006D02A9 /* Architecture-MVP-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture-MVP-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A295FD6227B42F26006D02A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A295FD6427B42F26006D02A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A295FD6B27B42F27006D02A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A295FD6E27B42F27006D02A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A295FD7027B42F27006D02A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A295FD7527B42F27006D02A9 /* MVP-Storyboard-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-Storyboard-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A295FD7927B42F27006D02A9 /* MVP_Storyboard_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Storyboard_2Tests.swift; sourceTree = "<group>"; };
-		A295FD7F27B42F27006D02A9 /* MVP-Storyboard-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-Storyboard-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A295FD8327B42F27006D02A9 /* MVP_Storyboard_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Storyboard_2UITests.swift; sourceTree = "<group>"; };
-		A295FD8527B42F27006D02A9 /* MVP_Storyboard_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Storyboard_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A295FD7527B42F27006D02A9 /* Architecture-MVP-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture-MVP-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A295FD7927B42F27006D02A9 /* Architecture_MVP_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVP_2Tests.swift; sourceTree = "<group>"; };
+		A295FD7F27B42F27006D02A9 /* Architecture-MVP-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture-MVP-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A295FD8327B42F27006D02A9 /* Architecture_MVP_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVP_2UITests.swift; sourceTree = "<group>"; };
+		A295FD8527B42F27006D02A9 /* Architecture_MVP_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_MVP_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A295FD9627B42F7A006D02A9 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		A295FD9827B42FFA006D02A9 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		A295FD9A27B43034006D02A9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		A295FD5627B42F26006D02A9 = {
 			isa = PBXGroup;
 			children = (
-				A295FD6127B42F26006D02A9 /* MVP-Storyboard-2 */,
-				A295FD7827B42F27006D02A9 /* MVP-Storyboard-2Tests */,
-				A295FD8227B42F27006D02A9 /* MVP-Storyboard-2UITests */,
+				A295FD6127B42F26006D02A9 /* Architecture-MVP-2 */,
+				A295FD7827B42F27006D02A9 /* Architecture-MVP-2Tests */,
+				A295FD8227B42F27006D02A9 /* Architecture-MVP-2UITests */,
 				A295FD6027B42F26006D02A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,18 +103,19 @@
 		A295FD6027B42F26006D02A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A295FD5F27B42F26006D02A9 /* MVP-Storyboard-2.app */,
-				A295FD7527B42F27006D02A9 /* MVP-Storyboard-2Tests.xctest */,
-				A295FD7F27B42F27006D02A9 /* MVP-Storyboard-2UITests.xctest */,
+				A295FD5F27B42F26006D02A9 /* Architecture-MVP-2.app */,
+				A295FD7527B42F27006D02A9 /* Architecture-MVP-2Tests.xctest */,
+				A295FD7F27B42F27006D02A9 /* Architecture-MVP-2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A295FD6127B42F26006D02A9 /* MVP-Storyboard-2 */ = {
+		A295FD6127B42F26006D02A9 /* Architecture-MVP-2 */ = {
 			isa = PBXGroup;
 			children = (
 				A295FD6227B42F26006D02A9 /* AppDelegate.swift */,
 				A295FD6427B42F26006D02A9 /* SceneDelegate.swift */,
+				A295FDA027B4358F006D02A9 /* ModuleBuilder.swift */,
 				A295FD9227B42F43006D02A9 /* MainModule */,
 				A2AED83727B5296C006EBD6D /* DetailModule */,
 				A295FDA227B43D64006D02A9 /* ServiceLayer */,
@@ -122,30 +123,29 @@
 				A295FD6D27B42F27006D02A9 /* LaunchScreen.storyboard */,
 				A295FD7027B42F27006D02A9 /* Info.plist */,
 			);
-			path = "MVP-Storyboard-2";
+			path = "Architecture-MVP-2";
 			sourceTree = "<group>";
 		};
-		A295FD7827B42F27006D02A9 /* MVP-Storyboard-2Tests */ = {
+		A295FD7827B42F27006D02A9 /* Architecture-MVP-2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A295FD7927B42F27006D02A9 /* MVP_Storyboard_2Tests.swift */,
+				A295FD7927B42F27006D02A9 /* Architecture_MVP_2Tests.swift */,
 			);
-			path = "MVP-Storyboard-2Tests";
+			path = "Architecture-MVP-2Tests";
 			sourceTree = "<group>";
 		};
-		A295FD8227B42F27006D02A9 /* MVP-Storyboard-2UITests */ = {
+		A295FD8227B42F27006D02A9 /* Architecture-MVP-2UITests */ = {
 			isa = PBXGroup;
 			children = (
-				A295FD8327B42F27006D02A9 /* MVP_Storyboard_2UITests.swift */,
-				A295FD8527B42F27006D02A9 /* MVP_Storyboard_2UITestsLaunchTests.swift */,
+				A295FD8327B42F27006D02A9 /* Architecture_MVP_2UITests.swift */,
+				A295FD8527B42F27006D02A9 /* Architecture_MVP_2UITestsLaunchTests.swift */,
 			);
-			path = "MVP-Storyboard-2UITests";
+			path = "Architecture-MVP-2UITests";
 			sourceTree = "<group>";
 		};
 		A295FD9227B42F43006D02A9 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				A295FDA027B4358F006D02A9 /* ModuleBuilder.swift */,
 				A295FD9327B42F4E006D02A9 /* Model */,
 				A295FD9527B42F5A006D02A9 /* View */,
 				A295FD9427B42F57006D02A9 /* Presenter */,
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A295FD5E27B42F26006D02A9 /* MVP-Storyboard-2 */ = {
+		A295FD5E27B42F26006D02A9 /* Architecture-MVP-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A295FD8927B42F27006D02A9 /* Build configuration list for PBXNativeTarget "MVP-Storyboard-2" */;
+			buildConfigurationList = A295FD8927B42F27006D02A9 /* Build configuration list for PBXNativeTarget "Architecture-MVP-2" */;
 			buildPhases = (
 				A295FD5B27B42F26006D02A9 /* Sources */,
 				A295FD5C27B42F26006D02A9 /* Frameworks */,
@@ -227,14 +227,14 @@
 			);
 			dependencies = (
 			);
-			name = "MVP-Storyboard-2";
+			name = "Architecture-MVP-2";
 			productName = "MVP-Storyboard-2";
-			productReference = A295FD5F27B42F26006D02A9 /* MVP-Storyboard-2.app */;
+			productReference = A295FD5F27B42F26006D02A9 /* Architecture-MVP-2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A295FD7427B42F27006D02A9 /* MVP-Storyboard-2Tests */ = {
+		A295FD7427B42F27006D02A9 /* Architecture-MVP-2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A295FD8C27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "MVP-Storyboard-2Tests" */;
+			buildConfigurationList = A295FD8C27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "Architecture-MVP-2Tests" */;
 			buildPhases = (
 				A295FD7127B42F27006D02A9 /* Sources */,
 				A295FD7227B42F27006D02A9 /* Frameworks */,
@@ -245,14 +245,14 @@
 			dependencies = (
 				A295FD7727B42F27006D02A9 /* PBXTargetDependency */,
 			);
-			name = "MVP-Storyboard-2Tests";
+			name = "Architecture-MVP-2Tests";
 			productName = "MVP-Storyboard-2Tests";
-			productReference = A295FD7527B42F27006D02A9 /* MVP-Storyboard-2Tests.xctest */;
+			productReference = A295FD7527B42F27006D02A9 /* Architecture-MVP-2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A295FD7E27B42F27006D02A9 /* MVP-Storyboard-2UITests */ = {
+		A295FD7E27B42F27006D02A9 /* Architecture-MVP-2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A295FD8F27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "MVP-Storyboard-2UITests" */;
+			buildConfigurationList = A295FD8F27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "Architecture-MVP-2UITests" */;
 			buildPhases = (
 				A295FD7B27B42F27006D02A9 /* Sources */,
 				A295FD7C27B42F27006D02A9 /* Frameworks */,
@@ -263,9 +263,9 @@
 			dependencies = (
 				A295FD8127B42F27006D02A9 /* PBXTargetDependency */,
 			);
-			name = "MVP-Storyboard-2UITests";
+			name = "Architecture-MVP-2UITests";
 			productName = "MVP-Storyboard-2UITests";
-			productReference = A295FD7F27B42F27006D02A9 /* MVP-Storyboard-2UITests.xctest */;
+			productReference = A295FD7F27B42F27006D02A9 /* Architecture-MVP-2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A295FD5A27B42F26006D02A9 /* Build configuration list for PBXProject "MVP-Storyboard-2" */;
+			buildConfigurationList = A295FD5A27B42F26006D02A9 /* Build configuration list for PBXProject "Architecture-MVP-2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -304,9 +304,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A295FD5E27B42F26006D02A9 /* MVP-Storyboard-2 */,
-				A295FD7427B42F27006D02A9 /* MVP-Storyboard-2Tests */,
-				A295FD7E27B42F27006D02A9 /* MVP-Storyboard-2UITests */,
+				A295FD5E27B42F26006D02A9 /* Architecture-MVP-2 */,
+				A295FD7427B42F27006D02A9 /* Architecture-MVP-2Tests */,
+				A295FD7E27B42F27006D02A9 /* Architecture-MVP-2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,7 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A295FD7A27B42F27006D02A9 /* MVP_Storyboard_2Tests.swift in Sources */,
+				A295FD7A27B42F27006D02A9 /* Architecture_MVP_2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A295FD8627B42F27006D02A9 /* MVP_Storyboard_2UITestsLaunchTests.swift in Sources */,
-				A295FD8427B42F27006D02A9 /* MVP_Storyboard_2UITests.swift in Sources */,
+				A295FD8627B42F27006D02A9 /* Architecture_MVP_2UITestsLaunchTests.swift in Sources */,
+				A295FD8427B42F27006D02A9 /* Architecture_MVP_2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,12 +378,12 @@
 /* Begin PBXTargetDependency section */
 		A295FD7727B42F27006D02A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A295FD5E27B42F26006D02A9 /* MVP-Storyboard-2 */;
+			target = A295FD5E27B42F26006D02A9 /* Architecture-MVP-2 */;
 			targetProxy = A295FD7627B42F27006D02A9 /* PBXContainerItemProxy */;
 		};
 		A295FD8127B42F27006D02A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A295FD5E27B42F26006D02A9 /* MVP-Storyboard-2 */;
+			target = A295FD5E27B42F26006D02A9 /* Architecture-MVP-2 */;
 			targetProxy = A295FD8027B42F27006D02A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -525,7 +525,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVP-Storyboard-2/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVP-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -535,7 +535,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVP-Storyboard-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -552,7 +552,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVP-Storyboard-2/Info.plist";
+				INFOPLIST_FILE = "Architecture-MVP-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -562,7 +562,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVP-Storyboard-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -581,12 +581,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVP-Storyboard-2Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP-Storyboard-2.app/MVP-Storyboard-2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture-MVP-2.app/Architecture-MVP-2";
 			};
 			name = Debug;
 		};
@@ -601,12 +601,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVP-Storyboard-2Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP-Storyboard-2.app/MVP-Storyboard-2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture-MVP-2.app/Architecture-MVP-2";
 			};
 			name = Release;
 		};
@@ -619,12 +619,12 @@
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVP-Storyboard-2UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MVP-Storyboard-2";
+				TEST_TARGET_NAME = "Architecture-MVP-2";
 			};
 			name = Debug;
 		};
@@ -637,19 +637,19 @@
 				DEVELOPMENT_TEAM = U3JHK4U826;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.MVP-Storyboard-2UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.Architecture-MVP-2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MVP-Storyboard-2";
+				TEST_TARGET_NAME = "Architecture-MVP-2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A295FD5A27B42F26006D02A9 /* Build configuration list for PBXProject "MVP-Storyboard-2" */ = {
+		A295FD5A27B42F26006D02A9 /* Build configuration list for PBXProject "Architecture-MVP-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A295FD8727B42F27006D02A9 /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A295FD8927B42F27006D02A9 /* Build configuration list for PBXNativeTarget "MVP-Storyboard-2" */ = {
+		A295FD8927B42F27006D02A9 /* Build configuration list for PBXNativeTarget "Architecture-MVP-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A295FD8A27B42F27006D02A9 /* Debug */,
@@ -667,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A295FD8C27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "MVP-Storyboard-2Tests" */ = {
+		A295FD8C27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "Architecture-MVP-2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A295FD8D27B42F27006D02A9 /* Debug */,
@@ -676,7 +676,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A295FD8F27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "MVP-Storyboard-2UITests" */ = {
+		A295FD8F27B42F27006D02A9 /* Build configuration list for PBXNativeTarget "Architecture-MVP-2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A295FD9027B42F27006D02A9 /* Debug */,

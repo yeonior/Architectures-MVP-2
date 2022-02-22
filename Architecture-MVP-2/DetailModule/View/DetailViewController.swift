@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  MVP-Storyboard-2
+//  Architecture-MVP-2
 //
 //  Created by Ruslan on 10.02.2022.
 //

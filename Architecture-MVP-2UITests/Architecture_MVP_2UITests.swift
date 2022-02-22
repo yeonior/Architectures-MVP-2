@@ -1,13 +1,13 @@
 //
-//  MVP_Storyboard_2UITests.swift
-//  MVP-Storyboard-2UITests
+//  Architecture_MVP_2UITests.swift
+//  Architecture-MVP-2UITests
 //
 //  Created by Ruslan on 09.02.2022.
 //
 
 import XCTest
 
-class MVP_Storyboard_2UITests: XCTestCase {
+class Architecture_MVP_2UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

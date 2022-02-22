@@ -1,6 +1,6 @@
 //
 //  NetworkService.swift
-//  MVP-Storyboard-2
+//  Architecture-MVP-2
 //
 //  Created by Ruslan on 09.02.2022.
 //
